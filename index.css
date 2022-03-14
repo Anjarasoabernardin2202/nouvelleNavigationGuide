@@ -1,0 +1,105 @@
+section {
+	height: 100vh;
+}
+
+.saifaireLogo {
+	width: 40px;
+	height: 40px;
+}
+
+img {
+	width: 20px;
+	height: 15px;
+}
+
+.images {
+	display: flex;
+}
+
+.carte {
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+	height: 50vh;
+	margin: 10px;
+	padding: 0;
+
+	border-radius: 5px;
+}
+.carte > .image {
+	object-fit: cover;
+	width: 100%;
+	height: 80%;
+}
+.carte > .image > img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.carte > .image > p {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.35);
+	position: relative;
+	top: -50%;
+	font-size: 12px;
+	padding: 10px 20px;
+}
+.title > img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.title > img,
+.title > h6 {
+	display: inline-block;
+}
+
+.hidden {
+	width: 0px;
+}
+
+/* page 2 */
+
+.linkCard {
+	position: relative;
+	height: 120px;
+	background-color: aquamarine;
+	border: 2px solid black;
+}
+
+.personLogo {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	top: 5px;
+	border-radius: 50%;
+	box-shadow: 0 0 4px black;
+	z-index: 2;
+}
+
+.productImage {
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.socialMediaLink {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.socialMediaLink > a > img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
